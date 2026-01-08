@@ -1,0 +1,30 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+
+# Environment variables / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Local tooling
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+
+# Build artifacts (generic)
+dist/
+build/
+out/
+
+# Temporary files
+tmp/
+temp/
+
+# Test databases / local state
+*.sqlite
+*.db
